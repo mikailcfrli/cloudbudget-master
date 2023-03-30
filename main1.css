@@ -1,0 +1,141 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.first_page {
+  background-image: url("./Rectangle\ 3.png"),
+    linear-gradient(
+      90deg,
+      rgba(213, 32, 71, 0.8) 0%,
+      rgba(215, 34, 67, 0.8) 0.01%,
+      rgba(229, 50, 43, 0.8) 21.35%,
+      rgba(236, 59, 30, 0.8) 51.55%,
+      rgba(236, 59, 30, 0.8) 51.56%,
+      rgba(236, 59, 30, 0.8) 53.65%,
+      rgba(236, 58, 31, 0.8) 77.07%,
+      rgba(236, 58, 31, 0.8) 77.08%,
+      rgba(237, 60, 29, 0.8) 97.4%,
+      rgba(237, 60, 29, 0.8) 99.97%,
+      rgba(237, 60, 29, 0.8) 99.98%,
+      rgba(237, 60, 28, 0.8) 99.99%,
+      rgba(238, 61, 27, 0.8) 100%
+    );
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+
+  height: 650px;
+}
+
+.section1 {
+  color: #fff;
+  position: absolute;
+  display: flex;
+  padding-top: 54.8px;
+  padding-left: 166.45px;
+  align-items: center;
+
+  float: left;
+  height: 22px;
+}
+
+#cloud_text {
+  padding-left: 2px;
+  padding-top: 0.2 %;
+}
+
+.section2 {
+  padding-left: 122.45px;
+  row-gap: 3px;
+  padding-bottom: 2px;
+
+  height: 19px;
+  display: flex;
+}
+
+.section2 > a {
+  color: #fff;
+  font-weight: 100;
+  font-size: 13px;
+  gap: 15px;
+  float: left;
+  padding-left: 15.45px;
+  text-decoration: none;
+  padding-top: 1.1%;
+}
+
+.section3 {
+  padding-left: 85px;
+  align-items: center;
+  display: flex;
+}
+
+#arrow {
+  padding-top: 12px;
+  padding-bottom: 3px;
+  height: 5px;
+  padding-left: 6px;
+  padding-right: 22px;
+}
+
+.section3 > img,
+span {
+  padding-left: 22px;
+  gap: 5px;
+}
+
+.section3 span {
+  padding-top: 4px;
+  height: 21px;
+  padding-right: 3px;
+}
+
+.login_button {
+  color: white;
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 14px;
+  height: 40px;
+  width: 100px;
+  padding-left: 6px;
+}
+
+.section4 {
+  margin-bottom: 12%;
+  color: #fff;
+  padding-top: 16%;
+  justify-content: center;
+}
+
+.big_text {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.small_text {
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section4 > p {
+  display: flex;
+  justify-content: center;
+}
+
+.signup {
+  color: #ed4c5c;
+  border: 1px solid #fff;
+  background-color: white;
+  border-radius: 14px;
+  height: 50px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 44%;
+  margin-top: 22px;
+}

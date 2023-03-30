@@ -1,0 +1,464 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.first_page {
+  background-image: url("./Rectangle 3.png"), linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(215, 34, 67, 0.8) 0.01%, rgba(229, 50, 43, 0.8) 21.35%, rgba(236, 59, 30, 0.8) 51.55%, rgba(236, 59, 30, 0.8) 51.56%, rgba(236, 59, 30, 0.8) 53.65%, rgba(236, 58, 31, 0.8) 77.07%, rgba(236, 58, 31, 0.8) 77.08%, rgba(237, 60, 29, 0.8) 97.4%, rgba(237, 60, 29, 0.8) 99.97%, rgba(237, 60, 29, 0.8) 99.98%, rgba(237, 60, 28, 0.8) 99.99%, rgba(238, 61, 27, 0.8) 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  height: 920px;
+}
+.first_page .section1 {
+  color: #fff;
+  position: absolute;
+  display: flex;
+  padding-top: 54.8px;
+  padding-left: 306.45px;
+  align-items: center;
+  float: left;
+  height: 22px;
+}
+.first_page .section1 #cloud_text {
+  padding-left: 2px;
+  padding-top: 0.2%;
+}
+.first_page .section1 .section2 {
+  padding-left: 272.45px;
+  row-gap: 3px;
+  padding-bottom: 2px;
+  height: 19px;
+  display: flex;
+}
+.first_page .section1 .section2 > a {
+  color: #fff;
+  font-weight: 100;
+  font-size: 13px;
+  gap: 15px;
+  float: left;
+  padding-left: 15.45px;
+  text-decoration: none;
+  padding-top: 1.1%;
+}
+.first_page .section1 .section3 {
+  padding-left: 175px;
+  align-items: center;
+  display: flex;
+}
+.first_page .section1 .section3 #arrow {
+  padding-top: 12px;
+  padding-bottom: 3px;
+  height: 5px;
+  padding-left: 6px;
+  padding-right: 22px;
+}
+.first_page .section1 .section3 .section3 span {
+  padding-top: 4px;
+  height: 21px;
+  padding-right: 3px;
+}
+.first_page .section1 .section3 > img,
+.first_page .section1 .section3 span {
+  padding-left: 22px;
+  gap: 5px;
+}
+.first_page .section1 .section3 .login_button {
+  color: white;
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 14px;
+  height: 40px;
+  width: 100px;
+  padding-left: 6px;
+}
+.first_page .section4 {
+  margin-bottom: 12%;
+  color: #fff;
+  padding-top: 16%;
+  justify-content: center;
+}
+.first_page .section4 .big_text {
+  font-size: 56px;
+  font-weight: bold;
+}
+.first_page .section4 .small_text {
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+}
+.first_page .section4 > p {
+  display: flex;
+  justify-content: center;
+}
+.first_page .section4 .signup {
+  color: #ed4c5c;
+  border: 1px solid #fff;
+  background-color: white;
+  border-radius: 14px;
+  height: 50px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 46%;
+  margin-top: 22px;
+}
+
+.second_page .content {
+  padding-top: 99px;
+  padding-bottom: 99px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second_page .content .second_pages_texts {
+  display: grid;
+  gap: 12px;
+}
+.second_page .content .second_pages_texts a {
+  color: rgb(237, 76, 92);
+  text-decoration: none;
+}
+.second_page .content .youtube {
+  position: relative;
+}
+
+.third_page {
+  background: rgb(250, 250, 250);
+}
+.third_page .content {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+}
+.third_page .content h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 67px;
+  padding-bottom: 61px;
+}
+.third_page .content .flex_container {
+  display: flex;
+  gap: 30px;
+}
+.third_page .content .flex_container .first_rectangular {
+  width: 293px;
+  height: 200px;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: #ffffff;
+  position: relative;
+  left: 30px;
+  bottom: 91px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.third_page .content .flex_container .first_rectangular .support h3 {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #101010;
+  padding: 9%;
+}
+.third_page .content .flex_container .first_rectangular .we p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  width: 229px;
+  height: 40px;
+  text-align: center;
+  color: #101010;
+}
+.third_page .content .flex_container .first_rectangular .a_link a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  text-decoration: none;
+  color: #ed4c5c;
+}
+.third_page .content .flex_container .second_rectangular {
+  width: 293px;
+  height: 200px;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: #ffffff;
+  position: relative;
+  left: 30px;
+  bottom: 91px;
+}
+.third_page .content .flex_container .third_rectangular {
+  width: 293px;
+  height: 200px;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: #ffffff;
+  position: relative;
+  left: 30px;
+  bottom: 91px;
+}
+
+.fourth_page {
+  padding-top: 67px;
+  padding-bottom: 101px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fourth_page h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  padding-bottom: 51px;
+  text-align: center;
+  color: #000000;
+}
+.fourth_page .total {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+.fourth_page .total .num {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.fourth_page .total .num p {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 120px;
+  text-align: center;
+  color: rgba(16, 16, 16, 0.08);
+}
+.fourth_page .total .num img {
+  position: absolute;
+  top: 62px;
+}
+.fourth_page .total .num h4 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #101010;
+  padding-top: 12px;
+}
+.fourth_page .total .num h5 {
+  padding-top: 12px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
+}
+
+.fifth_page {
+  padding-top: 67px;
+  padding-bottom: 101px;
+  background: #ed4c5c;
+}
+.fifth_page .content {
+  padding-top: 67px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.fifth_page .content .left h1 {
+  margin-bottom: 24px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #ffffff;
+}
+.fifth_page .content .left p {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+  color: #ffffff;
+  margin-bottom: 44px;
+}
+.fifth_page .content .left .icons {
+  display: flex;
+  gap: 24px;
+}
+.fifth_page .content .right .lf_back {
+  position: absolute;
+  display: flex;
+}
+.fifth_page .content .right .rght_back {
+  position: absolute;
+  display: flex;
+  left: 780px;
+}
+.fifth_page .content .right .top_photo {
+  position: relative;
+  left: 29px;
+  bottom: 22px;
+}
+
+.sixth_page {
+  padding-top: 47px;
+  padding-bottom: 123px;
+}
+.sixth_page .content {
+  padding-top: 67px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.sixth_page .content .left h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+  margin-bottom: 52px;
+}
+.sixth_page .content .left p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+  color: #000000;
+}
+.sixth_page .content .right .total {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.sixth_page .content .right .total .login_button {
+  background: #ed4c5c;
+  border: 1.5px solid #ed4c5c;
+  border-radius: 6px;
+  width: 160px;
+  height: 50px;
+  padding-left: 6px;
+  color: #fff;
+}
+.sixth_page .content .right .total .custom-select .selectService {
+  width: 100%;
+  height: 56px;
+  box-sizing: border-box;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: white;
+  padding: 12px 20px 12px 40px;
+}
+.sixth_page .content .right .total .name {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+.sixth_page .content .right .total .name input[type=text] {
+  width: 238px;
+  height: 56px;
+  box-sizing: border-box;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: white;
+  padding: 12px 20px 12px 40px;
+}
+.sixth_page .content .right .total input[type=num] {
+  width: 538px;
+  height: 56px;
+  box-sizing: border-box;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: white;
+  padding: 12px 20px 12px 40px;
+}
+
+.seventh_page {
+  padding-bottom: 86px;
+  background: rgb(250, 250, 250);
+}
+.seventh_page .content {
+  padding-top: 85px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  gap: 101px;
+}
+.seventh_page .content .top {
+  display: flex;
+  justify-content: space-between;
+}
+.seventh_page .content .adress {
+  display: grid;
+  gap: 33px;
+}
+.seventh_page .content .adress .inners {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #000000;
+}
+.seventh_page .content .adress .inners2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.seventh_page .content .adress .inners2 nav {
+  display: flex;
+  gap: 12px;
+}
+.seventh_page .content .adress h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+}
+
+@media screen and (max-width: 600px) {
+  .sixth_page {
+    background: green;
+  }
+}/*# sourceMappingURL=main.css.map */
